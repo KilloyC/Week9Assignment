@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FromTheKitchen</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/contact.css">
+
+</head>
+<body>
+    
+<!--start of the navbar-->
+<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+    <img class="img-fluid" src="/images/logo.png" alt="logo">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link pl-3" href="home.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle pl-3 active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown<span class="sr-only">(current)</span></a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link pl-3" href="login.html" tabindex="-1" aria-disabled="false">logout</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<!--end of the navbar-->
+
+<!--start of contact-us form-->
+<div class="container">
+    <section class="mb-4">
+        <h2 class="h1-responsive font-weight-bold text-center my-5">Contact Us</h2>
+        <p class="text-center w-responsive mx-auto mb-5">Do you have any questions or comments? Please do not hesitate to contact us directly.</p>
+
+        <div class="row">
+            <div class="col-md-9 mb-md-0 mb-5">
+
+                <form id="contactform">
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" name="name" class="form-control">
+                                <label for="name">Your Name</label>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" name="email" class="form-control">
+                                <label for="email">Your Email</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" name="subject" class="form-control">
+                                <label for="subject">Subject</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form">
+                                <textarea type="text" name="message" rows="3" class="form-control" md-textarea></textarea>
+                                <label for="message">Your Message</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center text-md-left">
+                        <button class="btn btn-danger" type="submit">Send</button>
+
+                    </div>
+                </form>
+            </div>
+
+                <div class="col-md-3 text-center text-primary">
+                    <ul class="list-unstyled mb-0">
+                        <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                        <p class="text-dark">Location, ID</p></li>
+                        <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                        <p class="text-dark">(427) 792-6657</p></li>
+                        <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                        <p class="text-dark">FromTheKitchen</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<!--end of contact-us form-->
+
+<h2 class="h1-responsive font-weight-bold border-bottom">Meet the Team</h2>
+
+<!--start of table-->
+<div class="table-responsive">
+<table class="table table-striped bg-danger mb-0 text-light">
+  <thead>
+    <tr>
+      <th scope="col">Position</th>
+      <th scope="col">First Name</th>
+      <th scope="col">Last Name</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">CEO</th>
+      <td>Oscar</td>
+      <td>Grey</td>
+      <td>@Oscar</td>
+    </tr>
+    <tr>
+      <th scope="row">Vice President</th>
+      <td>Booey</td>
+      <td>Goldman</td>
+      <td>@Boo</td>
+    </tr>
+    <tr>
+      <th scope="row">Media Relations</th>
+      <td>Libby</td>
+      <td>Mars</td>
+      <td>@Lib</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<!--end of table-->
+
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>

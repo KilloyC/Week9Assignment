@@ -1,0 +1,9 @@
+.img-fluid {
+    width: 8%;
+    height: auto;
+}
+
+body {
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(228, 70, 2, 0.63)
+    0.1%, rgba(221, 93, 14, 0.63) 90.1%);
+}
