@@ -1,5 +1,5 @@
 .bg-img {
-    background-image: url(/images/home.png);
+    background-image: url(../images/home.png);
     width: 100%;
     height: auto;
     background-position: fixed;
